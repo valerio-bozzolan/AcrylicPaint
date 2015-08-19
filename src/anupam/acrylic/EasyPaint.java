@@ -460,6 +460,8 @@ public class EasyPaint extends GraphicsActivity implements
 		v.setDrawingCacheEnabled(true);
 		Bitmap cachedBitmap = v.getDrawingCache();
 		Bitmap copyBitmap = cachedBitmap.copy(Bitmap.Config.RGB_565, true);
+		// crop the bitmap to remove the action bar
+		Bitmap croppedBitmap = copyBitmap.createBitmap(copyBitmap, 0, 100, copyBitmap.getWidth(), copyBitmap.getHeight() - 100);
 		FileOutputStream output = null;
 		File file = null;
 		try {
@@ -474,7 +476,7 @@ public class EasyPaint extends GraphicsActivity implements
 					+ cal.get(Calendar.MINUTE) + "_" + cal.get(Calendar.SECOND)
 					+ ".png");
 			output = new FileOutputStream(file);
-			copyBitmap.compress(CompressFormat.PNG, 100, output);
+			croppedBitmap.compress(CompressFormat.PNG, 100, output);
 		} catch (FileNotFoundException e) {
 			file = null;
 			e.printStackTrace();
