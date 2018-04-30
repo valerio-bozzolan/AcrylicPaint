@@ -3,7 +3,7 @@ Acrylic Paint is a "Free as in Freedom" coloring app for Android which will you 
 We have made some changes to the FingerPaint project taken from API demos.
 
 ## Installing
-1.) First download [F-Droid](http://f-droid.org)
+1.) First download [F-Droid](http://f-droid.org) <br/>
 2.) Install Acrylic Paint from [F-Droid]:
 
 https://f-droid.org/repository/browse/?fdid=anupam.acrylic
