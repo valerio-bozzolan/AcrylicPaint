@@ -4,7 +4,7 @@ We have made some changes to the FingerPaint project taken from API demos.
 
 ## Installing
 1.) First download [F-Droid](http://f-droid.org) <br/>
-2.) Install Acrylic Paint from [F-Droid]:
+2.) Install Acrylic Paint from [F-Droid](http://f-droid.org):
 
 https://f-droid.org/repository/browse/?fdid=anupam.acrylic
 
