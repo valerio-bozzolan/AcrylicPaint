@@ -1,9 +1,10 @@
 # Acrylic Paint
-Acrylic Paint is a Free as in Freedom coloring app for Android which helps you to share your imagination.
-Made some changes from FingerPaint project taken from API demos.
+Acrylic Paint is a "Free as in Freedom" coloring app for Android which will you share your imagination with others!
+We have made some changes to the FingerPaint project taken from API demos.
 
 ## Installing
-First download [F-Droid](http://f-droid.org) and then install Acrylic Paint from it:
+1.) First download [F-Droid](http://f-droid.org)
+2.) Install Acrylic Paint from [F-Droid]:
 
 https://f-droid.org/repository/browse/?fdid=anupam.acrylic
 
@@ -22,16 +23,16 @@ And thanks to all the contributors!
 * [Acrylic Paint anupam1525](https://github.com/anupam1525/AcrylicPaint) - Originally released under the Apache 2.0 license
 * [Acrylic Paint valerio-bozzolan](https://github.com/valerio-bozzolan/AcrylicPaint) - Upgraded to the GNU General Public License
 
-Every line of this app it's "upgraded" from the Apache 2.0 license to the **GPLv3+ license**! Read more about "license upgrading" [here](https://www.gnu.org/licenses/quick-guide-gplv3.html#new-compatible-licenses). (If I have done some errors during the license upgrade process, please tell me about how to upgrade the license of this app in the bug report...)
+Every line of this app is "upgraded" from the Apache 2.0 license to the **GPLv3+ license**! Read more about "license upgrading" [here](https://www.gnu.org/licenses/quick-guide-gplv3.html#new-compatible-licenses). (If I have done some errors during the license upgrade process, please tell me about how to upgrade the license of this app in the bug report...)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+the Free Software Foundation. This can be either version 3 of the License, or
+(depending on your needs) any later version.
 
 ## Disclaimer
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
+This program is distributed in the hopes that it will be useful,
+but WITHOUT ANY WARRANTY; also does not include the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
