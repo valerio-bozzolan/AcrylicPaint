@@ -409,7 +409,12 @@ public class EasyPaint extends GraphicsActivity implements
 					 */
 					
 					RenderScript rs = RenderScript.create( getApplicationContext( ) );
-					ScriptIntrinsicBlur script = ScriptIntrinsicBlur.create( rs, Element.RGBA_8888( rs ) );
+					ScriptIntrinsicBlur script;
+					try {
+						script = ScriptIntrinsicBlur.create(rs, Element.RGBA_8888(rs));
+					} catch (android.renderscript.RSIllegalArgumentException e) {
+						script = ScriptIntrinsicBlur.create(rs, Element.U8_4(rs));
+					}
 					script.setRadius( 20f ); //The radius must be between 0 and 25. Smaller radius means less blur. I just picked 20 randomly. ~TheOpenSourceNinja
 					
 					//copy the foreground: (n API level 18+, this will be really fast because it uses a shared memory model, thus not really copying everything)
