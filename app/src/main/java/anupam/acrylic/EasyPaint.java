@@ -260,8 +260,7 @@ public class EasyPaint extends GraphicsActivity implements
 
 			setId(R.id.CanvasId);
 			Display display = getWindowManager().getDefaultDisplay();
-			Point size = new Point();
-			display.getSize(size);
+			Point size = new Point(display.getWidth(), display.getHeight());
 			mBitmapBackground = Bitmap.createBitmap(size.x, size.y,  Bitmap.Config.ARGB_8888);
 			mBitmap = Bitmap.createBitmap(size.x, size.y,
 					Bitmap.Config.ARGB_8888);
