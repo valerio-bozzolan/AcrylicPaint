@@ -79,7 +79,7 @@
     </item>
     <item
         android:id="@+id/about_menu"
-        android:icon="@+drawable/about"
+        android:icon="@drawable/about"
         android:showAsAction="ifRoom"
         android:title="@string/about">
     </item>
