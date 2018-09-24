@@ -13,7 +13,7 @@
     <string name="share">Condividi</string>
     <string name="about">Info</string>
     <string name="open_image">Apri immagine come sfondo</string>
-    <string name="your_selected_size_is">Dimensione scelta: %1$s</string>
+    <string name="your_selected_size_is">Dimensione scelta: %1$d</string>
     <string name="choose_width">Scegli dimensione:</string>
     <string name="saved_your_location_to">La tua creazione è stata salvata in %1$s</string>
     <string name="select">Seleziona</string>

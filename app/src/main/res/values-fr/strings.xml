@@ -13,7 +13,7 @@
     <string name="save">Enregistrer</string>
     <string name="share">Partager</string>
     <string name="about">À propos</string>
-    <string name="your_selected_size_is">Taille sélectionnée : %1$s</string>
+    <string name="your_selected_size_is">Taille sélectionnée : %1$d</string>
     <string name="choose_width">Taille de brosse</string>
     <string name="saved_your_location_to">Peinture sauvegardée sous %1$s</string>
     <string name="select">Sélectionner</string>
