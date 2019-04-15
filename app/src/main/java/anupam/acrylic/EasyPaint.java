@@ -23,6 +23,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Calendar;
 import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -44,6 +45,7 @@ import android.graphics.PorterDuff.Mode;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.Shader;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -161,7 +163,14 @@ public class EasyPaint extends GraphicsActivity implements
 			//colors[ 0 ] = color;
 			//contentView.mBitmapBackground = Bitmap.createBitmap( colors, contentView.mBitmapBackground.getWidth(), contentView.mBitmapBackground.getHeight(), contentView.mBitmapBackground.getConfig() );
 		} else {
+			// Changes the color of the action bar when the pencil color is changed
+			if(Build.VERSION.SDK_INT >= 11) {
+				ActionBar actionBar = getActionBar();
+				ColorDrawable colorDrawable = new ColorDrawable(color);
+				actionBar.setBackgroundDrawable(colorDrawable);
+			}
 			mPaint.setColor( color );
+
 		}
 	}
 
