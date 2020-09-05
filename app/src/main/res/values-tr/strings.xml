@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acrylic Paint</string>
+    <string name="app_description">Acrylic Paint yaratıcılığınızı özgür bırakmanızı sağlayan özgür ve açık kaynak kodlu bir yazılımdır!-\n\nDaha fazla seçenek için Menü'ye basınız.\n\nFikir için Anupam Shrivastava'ya, projeyi dirilttiği için Valerio Bozzolan'a ve korkunç derecede destekleri için fizikçi Marco Gagino'ya teşekkürler. Emeği geçen herkese teşkkürler!\n\nSanat altın bileziktir :)</string>
+    <string name="here_is_your_canvas">İşte tuvalin. Çizmeye başlayabilirsin!</string>
+    <string name="color">Renk Paleti</string>
+    <string name="emboss">Keskin (Gölgeli)</string>
+    <string name="blur">Bulanık</string>
+    <string name="brush_size">Fırça boyutu</string>
+    <string name="erase">Silgi</string>
+    <string name="clear_foreground">Çizimleri sil</string>
+    <string name="clear_background">Arka planı sil</string>
+    <string name="clear_everything">Her şeyi sil</string>
+    <string name="save">Kaydet</string>
+    <string name="share">Paylaş</string>
+    <string name="about">Hakkında</string>
+    <string name="open_image">Arka plan seç</string>
+    <string name="fill_background_with_color">Arka planı boya</string>
+    <string name="your_selected_size_is">Seçili boyut: %1$d</string>
+    <string name="choose_width">Fırça boyutu</string>
+    <string name="saved_your_location_to">Çiziminiz şurya kaydedildi %1$s</string>
+    <string name="select">Seç</string>
+    <string name="continue_fuck">Devam et</string> <!-- Workaround to avoid "R.string.continue", that it's as a special class-word! D: -->
+    <string name="ok">Tamam</string>
+    <string name="pick_color">Renk seç</string>
+    <string name="toolbox_share_title">Paylaş</string>
+    <string name="share_title_template">Acrylic Paint ile ne yaptığıma bak! --- Acrylic Paint (Basit çizim uygulaması) - https://f-droid.org/app/anupam.acrylic</string>
+    <string name="share_text_template">Yazı olarak paylaş</string>1
+    <string name="no_way_to_share">Paylaşılacak uygulama mevcut değil</string>
+    <string name="brush">Fırça</string>
+    <string name="title_activity_about">Hakkında</string>
+    <string name="press_back_again">Çıkmak için tekrar basın!\n(Kaydedilmemiş bütün içerikler silinecektir!)</string>
+    <string name="about_description">
+<![CDATA[
+<h1>Acrylic Paint</h1>
+<p>Acrylic Paint kullandığınız için teşekkür ederiz!<br />A <b>Bu özgür ve açık kaynak kodlu bir yazılımdır</b> yaratıcılığınızı özgür bırakabilmeniz için!</p>
+
+<h2>Geliştirenler</h2>
+<p>Özel teşekkürler:<br>
+<b><a href="https://github.com/anupam1525>Anupam Shrivastava</a></b> Acrylic Paint'in eski versiyonu için. O şuanda aktif değil.<br>
+<b><a href="https://github.com/valerio-bozzolan">Valerio Bozzolan</a></b> kaynak kodu iyi inceleyip optimize ettiği için. O şuanda mevcut AcrylicPaint geliştirme yükünü üstlenmektedir.<br>
+<b><a href="https://github.com/marcogagino-22">Marco Gagino</a></b> büyük katkıları ve arayüz düzenlemesi için!
+</p>
+
+<h2>Lisanslar</h2>
+<p>Acrylic Paint'in mevcut versiyonu ve kaynak kodları <a href="https://boz.reyboz.it">Valerio Bozzolan</a> tarafından <i>GNU GPLv3+</i> lisansı altında dağıtılmaktadır.
+Bu lisans herkese bu uygulamayı başkalarına da aynı hakları takdim ettiğiniz sürece <b>her şekilde</b> ve <b>her amaç</b> için kullanma, üzerinde çalışma, geliştirme va başkalarıyla paylaşma imkanı sunar.</p>
+<p>Bu uygulama <b>herkes için kullanışlı olur umuduyla</b> dağıtılmaktadır ama herhangi bir garanti vermez; belirtilmemiş TİCARİ KULLANILABİLİRLİK veya BELİRLİ BİR AMAÇ İÇİN UYGUNLUK garantisi dahi vermez. Daha fazla bilgi GNU General Public License lisansına bakınız.</p>
+
+<h2>Not</h2>
+<p>Eğer bir sorun fark ederseniz ya da önerileriniz varsa <a href="https://github.com/valerio-bozzolan/AcrylicPaint/issues">sorun takibi</a> adresini kullanmaktan çekinmeyin.</p>
+<p>Kaynak koduna katkıda bulunun: <a href="https://github.com/valerio-bozzolan/AcrylicPaint">valerio-bozzolan/AcrylicPaint</a> @GitHub.</p>
+<p>Daha fazla bilgilendirme için <a href="https://github.com/valerio-bozzolan/AcrylicPaint/blob/master/README.md">README</a> dosyasını okuyun.</p>
+
+<p>İyi eğlenceler!</p>
+    ]]>
+    </string>
+    <string name="select_image_to_open">Görüntü dosyası aç</string>
+    <string name="extract_color">Renk seç</string>
+    <string name="color_extracted">Yeni renk seçildi</string>
+    <string name="tap_to_extract_color">Renk seçmek için bir yere dokunun</string>
+    <string name="ability_disabled_need_newer_api_level">Bu özellik daha yeni Android sürümleri gerektirdiği için kullanılamamaktadır (en azından API level 17).</string>
+    <string name="smudge">Dağıt</string>
+    <string name="clear_options">Silme ayarları</string>
+    <string name="drawing_effects">Çizim efektleri</string>
+
+</resources>
